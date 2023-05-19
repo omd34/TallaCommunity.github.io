@@ -1,11 +1,9 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "talla";
+$servername = "db4free.net";
+$username = "tallacommunity";
+$password = "Youdomyoudome1@";
+$dbname = "tallacommunity";
 $conn = new mysqli($servername, $username, $password, $dbname);
-ini_set("SMTP","localhost");
-ini_set("smtp_port","25");
 
 $email = $_POST['email'];
 $destinataire = 'Danielotomo34@gmail.com';
