@@ -22,7 +22,7 @@ try{
 	  $verification=$insertion->execute();
 	  if($verification){
 		  echo "<br>Insertion reussie";
-		  header("Location: https://omd34.github.io/TallaCommunity.github.io/connexion.php"); 
+		  header("Location: connexion.php"); 
 	  }else{
 		  echo "Echec d'insertion";
 	  }
