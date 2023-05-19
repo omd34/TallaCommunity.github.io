@@ -1,7 +1,7 @@
 <?php
 $servername="db4free.net";
 $port=3306;
-$username="tallacommunity";
+$username="tallacommunity@localhost";
 $password="Youdomyoudome1@";
 $dbname='tallacommunity';
 
