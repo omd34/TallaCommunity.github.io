@@ -1,16 +1,14 @@
 <?php
 $servername="db4free.net";
-$port=3306;
 $username="tallacommunity";
 $password="Youdomyoudome1@";
 $dbname="tallacommunity";
 
-try{
-	$newBD=new PDO("mysql:servername=$servername;port=$port;dbname=$dbname",$username,$password);
-	echo "connexion etablie";
-}catch(PDOException $e){
-	die('Erreur:' .$e->getMessage());
-}
+	$newBD=new mysqli($servername,$username,$password,$dbname);
+	if($newBD->connect_error){
+		die("Connection failed:" . $newBD->connect_error);
+	}
+
   if (isset($_POST["email"]) && isset($_POST["mdp"]) && isset($_POST["telephone"]) && isset($_POST["nom"]))
      {
 	  $insertion=$newBD->prepare('INSERT INTO inscription VALUES(NULL,
