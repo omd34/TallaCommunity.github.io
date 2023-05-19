@@ -5,10 +5,10 @@ $email = $_POST['email'];
 $password = $_POST['mdp'];
 
 // Connexion à la base de données
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "talla";
+$servername = "db4free.net";
+$username = "tallacommunity";
+$password = "Youdomyoudome1@";
+$dbname = "tallacommunity";
 $conn = new mysqli($servername, $username, $password, $dbname);
  if (isset($_POST["email"]) && isset($_POST["mdp"]))
 
