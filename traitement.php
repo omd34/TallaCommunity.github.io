@@ -1,9 +1,9 @@
 <?php
-$servername="localhost";
+$servername="db4free.net";
 $port=3306;
-$username="root";
-$password="";
-$dbname='talla';
+$username="tallacommunity";
+$password="Youdomyoudome1@";
+$dbname='tallacommunity';
 
 try{
 	$newBD=new PDO("mysql:servername=$servername;port=$port;dbname=$dbname",$username,$password);
