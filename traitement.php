@@ -22,7 +22,7 @@ try{
 	  $verification=$insertion->execute();
 	  if($verification){
 		  echo "<br>Insertion reussie";
-		  header("Location: connexion.html"); 
+		 // header("Location: connexion.html"); 
 	  }else{
 		  echo "Echec d'insertion";
 	  }
