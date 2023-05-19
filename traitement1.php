@@ -28,10 +28,10 @@ if ($result->num_rows == 1) {
   if ($password1==$row["mdp"]) {
     // Mot de passe correct, l'utilisateur est connecté
 
-    header("Location: commande.php");
+    header("Location: commande.html");
   } else {
     // Mot de passe incorrect
-	 header("Location: connexion.php");
+	 header("Location: connexion.html");
 	  $error = "Mot de passe incorrect";
 	  exit();
 	 
@@ -39,10 +39,10 @@ if ($result->num_rows == 1) {
 } else {
   // Aucun utilisateur trouvé avec cet e-mail
   $error = "Utilisateur non trouvé avec cet e-mail";
-      header("Location: connexion.php");
+      header("Location: connexion.html");
   
 }
  }else{
-	       header("Location: connexion.php");
+	       header("Location: connexion.html");
  }
 ?>
