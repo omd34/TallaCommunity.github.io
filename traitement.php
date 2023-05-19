@@ -3,7 +3,7 @@ $servername="db4free.net";
 $port=3306;
 $username="tallacommunity";
 $password="Youdomyoudome1@";
-$dbname='tallacommunity';
+$dbname="tallacommunity";
 
 try{
 	$newBD=new PDO("mysql:servername=$servername;port=$port;dbname=$dbname",$username,$password);
@@ -22,6 +22,7 @@ try{
 	  $verification=$insertion->execute();
 	  if($verification){
 		  echo "<br>Insertion reussie";
+		  headers(location: "connexion.html");
 	  }else{
 		  echo "Echec d'insertion";
 	  }
