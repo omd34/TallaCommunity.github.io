@@ -1,5 +1,5 @@
 <?php
-$servername="wwwd.db4free.net";
+$servername="www.db4free.net";
 $username="tallacommunity";
 $password="Youdomyoudome1@";
 $dbname="tallacommunity";
