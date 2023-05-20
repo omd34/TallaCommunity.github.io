@@ -13,7 +13,7 @@
 			<nav>
 				<h1>MENUISERIE Talla Community</h1>
 				<div class="right">
-	                   <a href="index.php">Accueil</a> | <a href="top5produit.html">Produits</a> | <a href="top3service.html">Services</a> |  <a href="top7Photo.html">Photos</a> | 
+	                   <a href="index.php">Accueil</a> | <a href="top5produit.php">Produits</a> | <a href="top3service.php">Services</a> |  <a href="top7Photo.php">Photos</a> | 
        	        	
                      
 				</div>
