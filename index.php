@@ -89,8 +89,8 @@ Nous sommes convaincus que nos créations apporteront une valeur ajoutée à vot
 			</div>
 			<div class="column">
 			<h3>Aide</h3>
-			   <p><a href="connexion.html">Avez-vous un compte?</a></p>
-				<p><a href="inscription.html">Inscrivez-vous dès maintenant<a></p>
+			   <p><a href="connexion.php">Avez-vous un compte?</a></p>
+				<p><a href="inscription.php">Inscrivez-vous dès maintenant<a></p>
 				</div>
 			<div class="column">
 				<h3>Réseaux</h3>
